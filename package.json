@@ -1,21 +1,13 @@
 {
-  "name": "youtube-clone",
+  "name": "wetube",
   "version": "1.0.0",
-  "description": "Cloning YouTube with Vanilla and NodeJs",
+  "description": "Cloning YouTube with Vanilla and NodeJS",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/haleyjung/youtube-clone.git"
-  },
   "author": "Haley Jung",
-  "bugs": {
-    "url": "https://github.com/haleyjung/youtube-clone/issues"
-  },
-  "homepage": "https://github.com/haleyjung/youtube-clone#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "scripts":{
+    "start": "node index.js"
   }
 }
